@@ -1,0 +1,165 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+.wrapper{
+    width: 100%;
+    max-width: 800px;
+}
+.header{
+    float: left;
+    width: 100%;
+    background-image: url("file:///Applications/MAMP/htdocs/project-ten/html/img/bkg.png");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.header_box{
+    float: left;
+    width: 100%;
+}
+.logo{
+    float: left;
+    margin-top: 25px;
+    margin-left: 19px;
+    margin-bottom: 25px;
+}
+.menu{
+    float: right;
+}
+.menu ul{
+    float: right;
+    margin: 54px 0;
+}
+.menu ul li{
+    float: left;
+    margin-left: 10px;
+}
+.menu ul li a{
+    font-size: 20px;
+    color: #959595;
+    font-style: normal; 
+    text-transform: uppercase; 
+    padding: 15px;
+    border-radius: 8px;
+}
+.menu ul li a.active, .menu ul li a:hover{
+    background-color: #1e1f20;
+    color: #ffffff;
+}
+.section{
+    float: left;
+    width: 100%;
+    background-image: url("file:///Applications/MAMP/htdocs/project-ten/html/img/section1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.section_box{
+    float: left;
+    width: 100%;
+    background-image: url("file:///Applications/MAMP/htdocs/project-ten/html/img/section_bkg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 20px;
+}
+.section_box h1{
+    float: left;
+    font-size: 40px;
+    line-height: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 21px;
+    margin-top: 21px;
+    text-transform: uppercase;
+}
+.discription{
+    float: left;
+    width: 100%;
+}
+.discription ul{
+    float: left;
+    margin-top: 30px;
+}
+.discription ul li{
+    float: left;
+    width: 30%;
+    margin-left: 25px;
+
+}
+.discription ul li h2{
+    float: left;
+    font-size: 16px;
+
+}
+.discription ul li p{
+    float: left;
+    font-size: 12px;
+    color: #d2d2d2;
+    line-height: 24px;
+}
+.content{
+    float: left;
+    width: 100%;
+}
+.content ul{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.content ul li{
+    float: left;
+    width: 30%;
+    margin-left: 25px;
+}
+.content ul li h3{
+    float: left;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content ul li p{
+    float: left;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    margin-top: 15px
+}
+.footer{
+    float: left;
+    width: 100%;
+    background-image: url("file:///Applications/MAMP/htdocs/project-ten/html/img/footer.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer_box{
+    float: left;
+    width: 100%;
+}
+.footer_box p{
+    float: left;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #959595;
+    margin: 30px 0px 30px 21px;
+}
+.footer_box #twitter{
+    float: left;
+    color: #d4d7dc;
+    background-color: #202022;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid #202022;
+    margin-left: 180px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+.footer_box img{
+    float: right;
+    margin-top: 8px;
+}
